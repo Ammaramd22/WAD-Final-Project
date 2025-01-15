@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Cart - Classy Sunglasses</title>
+    <link rel="stylesheet" href="/Admin/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Navbar-->
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/assets/logo/logo.jpg" width="125px" alt="logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="productlist.html">Product list</a></li>
+                        <li><a href="addproduct.html">Add Product</a></li>
+                        <li><a href="customers.html">Customers</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="admincart.html"><img src="/assets/png/shopping-bag.png" width="30px" height="30px"></a>
+                <img src="/assets/png/list.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!---Cart-->
+
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Details</th>
+                <th>Manage</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="assets/images/GS 18/GS 1-0318.jpg" alt="">
+                        <div>
+                            <p>GS 1103 Glass</p>
+                            <small>Price:Rs.2000</small>
+                            <br>
+                            <p>Quantity</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <p>Name</p>
+                    <br>
+                    <p>Address</p>
+                </td>
+                <td class="mng-order">
+                    <button class="manage-btn" id="acc-btn">Accept</button>
+                    <button class="manage-btn" id="dec-btn">Decline</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="assets/images/GS 18/GS 1-0318.jpg" alt="">
+                        <div>
+                            <p>GS 1103 Glass</p>
+                            <small>Price:Rs.2000</small>
+                            <br>
+                            <p>Quantity</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <p>Name</p>
+                    <br>
+                    <p>Address</p>
+                </td>
+                <td class="mng-order">
+                    <button class="manage-btn" id="acc-btn">Accept</button>
+                    <button class="manage-btn" id="dec-btn">Decline</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="assets/images/GS 18/GS 1-0318.jpg" alt="">
+                        <div>
+                            <p>GS 1103 Glass</p>
+                            <small>Price:Rs.2000</small>
+                            <br>
+                            <p>Quantity</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <p>Name</p>
+                    <br>
+                    <p>Address</p>
+                </td>
+                <td class="mng-order">
+                    <button class="manage-btn" id="acc-btn">Accept</button>
+                    <button class="manage-btn" id="dec-btn">Decline</button>
+                </td>
+            </tr>
+        </table>
+
+        <!--
+            <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>Rs.4000</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs.200</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs.4200</td>
+                </tr>
+            </table>
+        </div>
+
+        -->
+        
+
+    </div>
+
+
+   
+
+
+    <script src="/script/main.js"></script>
+</body>
+
+</html>

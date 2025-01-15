@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Classy Sunglasses</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Navbar-->
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/assets/logo/logo.jpg" width="125px" alt="logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="/assets/png/shopping-bag.png" width="30px" height="30px"></a>
+                <img src="/assets/png/list.png" class="menu-icon" onclick="menutoggle()">
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    <!---Cart-->
+
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="assets/images/GS 18/GS 1-0318.jpg" alt="">
+                        <div>
+                            <p>GS 1103 Glass</p>
+                            <small>Price:Rs.2000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.2000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="assets/images/GS 18/GS 1-0418.jpg" alt="">
+                        <div>
+                            <p>GS 1103 Glass</p>
+                            <small>Price:Rs.2000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.2000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="assets/images/GS 18/GS 1-0218.jpg" alt="">
+                        <div>
+                            <p>GS 1103 Glass</p>
+                            <small>Price:Rs.2000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.2000</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs.6 000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="order">
+            <form action="order" method="get">
+                <label for="customer-name">Name:</label><br>
+                <input type="text" id="customer-name">
+
+                <label for="customer-address">Address:</label><br>
+                <input type="text" id="customer-address">
+
+                <label for="customer-phone">Phone Number:</label><br>
+                <input type="text" id="customer-phone">
+
+                <br>
+                <input type="submit" id="confirm-order" placeholder="Confirm">
+            </form>
+        </div>
+
+    </div>
+
+
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="/assets/logo/logo.jpg" width="70px" alt="">
+                    <p>style with classy_sunglasses</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Details</h3>
+                    <ul>
+                        <li><a href="policy.html">Return Policy</a></li>
+                        <li><a href="contactus.html">More Details</a></li>
+                        <li>Blogs</li>
+                        <li>join Affiiate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Whatsapp</li>
+                        <li>Tiktok</li>
+                        <li><a href="contactus.html">click</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright">Copyright 2024 - @classy_sunglasses.lk</p>
+        </div>
+    </div>
+
+
+    <script src="script/main.js"></script>
+    <script src="script/addtocart.js"></script>
+</body>
+
+</html>
